@@ -1,0 +1,17 @@
+1) create a virtual env:
+    python -m venv virt
+
+2) activate the venv:
+    source virt/Scripts/activate
+
+3) to deactivate just run:
+    deactivate
+
+4) pip install Flask-SQLAlchemy
+
+5) when db class made on the main program we need to create the db
+go into python shell
+do :
+from app import app
+from app import db
+db.create_all()
